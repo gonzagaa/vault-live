@@ -163,13 +163,17 @@ html {
   color: #111111;
 }
 
-#home span.restam {
+#home p.restam {
   font-size: 3.5rem;
   font-weight: 700;
+  color: var(--color-text);
+  margin-top: 1rem;
+}
+
+#home p.restam span {
   background: var(--gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;color: var(--principal-color);
-  margin-top: 1rem;
 }
 
 /* topicos =================== */

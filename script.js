@@ -6,8 +6,5 @@ const modal = document.getElementById("dialogForm");
 
 button.onclick = function() {
     modal.showModal();
-}
+};
 
-buttonTwo.onclick = function() {
-    modal.showModal();
-}
