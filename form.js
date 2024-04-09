@@ -495,7 +495,7 @@ window._load_script = function(url, callback, isSubmit) {
                 formData.append(key, value);
               });
 
-              const response = await fetch('https://iigust4vo.activehosted.com/proc.php?jsonp=true', {
+              const response = await fetch('https://vaultcapital.activehosted.com/proc.php?jsonp=true', {
                 headers: {
                   "Accept": "application/json"
                 },
@@ -509,7 +509,7 @@ window._load_script = function(url, callback, isSubmit) {
                     eval(data.js);
                   });
                 } else {
-                  _load_script('https://iigust4vo.activehosted.com/proc.php?' + serialized + '&jsonp=true', null, true);
+                  _load_script('https://vaultcapital.activehosted.com/proc.php?' + serialized + '&jsonp=true', null, true);
                 }
         }
         return false;
