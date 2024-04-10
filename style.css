@@ -182,14 +182,16 @@ html {
 }
 
 #home .topicos header h2,
-#obrigado h2 {
+#obrigado h2,
+.depoimentos h2 {
   color: #d8d8d8;
   margin-bottom: 2rem;
   font-size: 2rem;
 }
 
 #home .topicos header h2 span,
-#obrigado h2 span {
+#obrigado h2 span,
+.depoimentos h2 span {
   font-weight: 900;
   background: var(--gradient);
   -webkit-background-clip: text;
@@ -239,6 +241,25 @@ html {
   background: var(--gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;color: var(--principal-color);
+}
+
+#home .depoimentos {
+  padding-bottom: 2rem;
+}
+
+#home .depoimentos img {
+  margin-block: 2rem;
+}
+
+#home .depoimentos h2 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+#home .depoimentos video {
+  width: 60%;
+  border-radius: 1rem;
+  border: 2px solid var(--principal-color);
 }
 
 /* buttonWhatsapp =================== */
@@ -396,6 +417,10 @@ html {
   header#home .topicos .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  header#home .depoimentos h2 {
+    font-size: 3rem;
   }
 
   dialog {
