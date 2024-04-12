@@ -445,6 +445,7 @@ html {
   } 
 
   header#home .depoimentos .videos .line {
+    display: inherit;
     position: absolute;
     width: 5%;
     height: 6px;
