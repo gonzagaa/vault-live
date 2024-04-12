@@ -256,8 +256,14 @@ html {
   font-size: 2.5rem;
 }
 
+#home .depoimentos .videos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
 #home .depoimentos video {
-  width: 60%;
+  width: 100%;
   border-radius: 1rem;
   border: 2px solid var(--principal-color);
 }
@@ -422,6 +428,14 @@ html {
   header#home .depoimentos h2 {
     font-size: 3rem;
   }
+
+  header#home .depoimentos .videos {
+    justify-items: center;
+  }
+
+  header#home .depoimentos .videos video {
+    width: 60%;
+  } 
 
   dialog {
     width: 40%;
